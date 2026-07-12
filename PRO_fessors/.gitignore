@@ -1,0 +1,27 @@
+.DS_Store
+.env
+.env.*
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/coverage/
+frontend/.vite/
+
+# Backend
+backend/.venv/
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.ruff_cache/
+backend/htmlcov/
+backend/.coverage
+backend/**/__pycache__/
+backend/**/*.py[cod]
+
+# Aiken
+contracts/build/
+contracts/.aiken/
+
+# Local runtime data
+.data/
+*.log

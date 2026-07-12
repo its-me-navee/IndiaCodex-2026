@@ -1,0 +1,77 @@
+{
+  "network": "preprod",
+  "status": "PLANNED_NOT_SUBMITTED",
+  "blueprint_sha256": "e97867e14ccd2f8e0f94219fafda1414b5cd90152bed015045615296b235eb01",
+  "admin_payment_credential": "3702ce0df3030dd69f266e144e000f3dc41623dfda01782393f67e6e",
+  "seed": {
+    "tx_hash": "f5f81c58a01eecd16bfaedc19b3a42b899a439d421c16af7dcf007a41681f2c4",
+    "output_index": 2,
+    "lovelace": "9990896192"
+  },
+  "genesis": {
+    "market_id": "probx-demo-001",
+    "statement": "Will ADA/USD be at or above $1.00 at 00:00 UTC on 31 December 2026?",
+    "trading_deadline_ms": 1798675200000,
+    "resolution_deadline_ms": 1798848000000,
+    "claim_deadline_ms": 1801440000000,
+    "terms_sha256": "a3e156864be351ba16dfc1de867938121ff868e4f5cf560e1d8fead7bd380a79",
+    "metadata_sha256": "e2f39251b7f24c111cb3c5d9247f6b7b6bd471fae031fd3c6fdd4b47a7d7d0c4",
+    "resolution_criteria_sha256": "949833ee0e8e0a27b9adb2e4b78b0797d7ad002d55aa65b16701089e548d126a",
+    "resolution_source": "Coinbase ADA-USD one-minute candle at 2026-12-31T00:00:00Z",
+    "purpose": "disposable_hackathon_demo"
+  },
+  "state_policy": {
+    "policy_id": "1ea95c47bea63dd5666a9d64c9e148892d5c2f774d3c4defc83914e2",
+    "applied_bytes": 5263
+  },
+  "assets": {
+    "market": {
+      "name_hex": "4d41524b45545f5354415445",
+      "unit": "1ea95c47bea63dd5666a9d64c9e148892d5c2f774d3c4defc83914e24d41524b45545f5354415445"
+    },
+    "liquidity": {
+      "name_hex": "4c49515549444954595f5354415445",
+      "unit": "1ea95c47bea63dd5666a9d64c9e148892d5c2f774d3c4defc83914e24c49515549444954595f5354415445"
+    }
+  },
+  "scripts": {
+    "lifecycle": {
+      "hash": "2d8dd4fd2cc88fcde3918ce9ad33b64fcca39b90103e8de5b273893e",
+      "address": "addr_test1wqkcm48a9nygln0rjxxwntfnke8uegumjqgrar09kfecj0sequzel",
+      "applied_bytes": 6846
+    },
+    "trading": {
+      "hash": "e5ab1746a0d891c28e11ba4c596867026c7463e60431898dc57549b3",
+      "address": "addr_test1wrj6k96x5rvfrs5wzxaycktgvupxcarruczrrzvdc465nvcs36cdf",
+      "applied_bytes": 11693
+    },
+    "settlement": {
+      "hash": "8d10cc0f12b43b5b1ac9e2f99253cd5bd015574c5b9b331370e2e069",
+      "address": "addr_test1wzx3pnq0z26rkkc6e830nyjne4daq92hf3dekvcnwr3wq6g85pzn7",
+      "applied_bytes": 9969
+    },
+    "liquidity": {
+      "hash": "b166dbfb520e8fdc70f1fbd7d9766ed0122ec3d96acbc44887b189b4",
+      "address": "addr_test1wzckdklm2g8glhrs78aa0ktkdmgpytkrm94vh3zgs7ccndqffmqnw",
+      "applied_bytes": 6003
+    },
+    "position": {
+      "hash": "acd1f851b5ef4839bfb6fba929b57dfdf655cbe9dc669f09b854d06d",
+      "address": "addr_test1wzkdr7z3khh5swdlkma6j2d40h7lv4wta8wxd8cfhp2dqmg8cdlq6",
+      "applied_bytes": 1535
+    },
+    "position_token": {
+      "policy_id": "6d8ae0b9c3613975d3cbedf6a30f040ac11eaeecad06b92992c2b33a",
+      "applied_bytes": 1863
+    },
+    "lp_receipt": {
+      "hash": "eb8948ec425ea30c644d9d743fa58ffce4dae1c8b6d8e5c6f9ffbac3",
+      "address": "addr_test1wr4cjj8vgf02xrryfkwhg0a93l7wfkhpezmd3ewxl8lm4scf72uxk",
+      "applied_bytes": 1326
+    },
+    "lp_receipt_token": {
+      "policy_id": "b7ae2592d5988687222afb664d837cb8120842c58d4e3fe9420b76c0",
+      "applied_bytes": 1631
+    }
+  }
+}
