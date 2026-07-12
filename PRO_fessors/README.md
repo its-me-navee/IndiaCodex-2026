@@ -2,6 +2,8 @@
 
 **A Cardano-powered statement prediction market with transparent custody and live cash-out.**
 
+**Live deployment:** <https://probx.devcrew.dev/>
+
 ## Overview
 
 ProbX is a general prediction platform where people can create clear statements about future events and others can choose whether they believe the answer will be YES or NO. A statement might ask whether ADA will reach a certain price, whether a product will launch before a date, or whether a public event will happen. Markets can cover crypto, technology, economics, entertainment, sports, and other topics, provided that the final result can be checked objectively.
